@@ -22,23 +22,18 @@ Rock crushes Scissors"
 
 # Simplified Rules Table
 
-| Choice       | Beats                | Loses to                 |
-|--------------|----------------------|--------------------------|
-|              | Paper (cuts)         | Rock (crushes)           |
-|  Scissors	   | Lizard (decapitates) | Spock (smashes)          |
-|--------------|----------------------|--------------------------|
-|              | 	Rock (covers)       | Scissors (cuts)          |
-|  Paper   	   | 	Spock (disproves)   | Lizard (eats)            |
-|--------------|----------------------|--------------------------|
-|              | Scissor (crushes)    | paper (covers)           |
-|  Rock        | Lizard (crushes)     | Spock (vaporizes)        |
-|--------------|----------------------|--------------------------|
-|              | Paper (eats)         | Rock (crushes)           |
-|  Lizard 	   | Spock (poisons)      | Scissor (decapitates)    |
-|--------------|----------------------|--------------------------|
-|              | Scissor (smashes)    | paper (disproves)        |
-|  Spock       | Rock (vapourizes)    | Lizard (poisons)         |
-|--------------|----------------------|--------------------------|
+| Choice       | Beats                                | Loses to                              |
+|--------------|--------------------------------------|---------------------------------------|
+|  Scissors	   | Paper (cuts), Lizard (decapitates)   | Spock (smashes), Rock (crushes)       |
+|              |                                      |                                       |
+|  Paper   	   | 	Spock (disproves), Rock (covers)    | Lizard (eats),Scissors (cuts)         |
+|              |                                      |                                       |
+|  Rock        | Scissor (crushes), Lizard (crushes)  | paper (covers), Spock (vaporizes)     |
+|              |                                      |                                       |
+|  Lizard 	   | Paper (eats), Spock (poisons)        | Rock (crushes), Scissor (decapitates) |
+|              |                                      |                                       |
+|  Spock       | Scissor (smashes), Rock (vapourizes) | paper (disproves), Lizard (poisons)   |
+
 
 
 
@@ -50,6 +45,7 @@ Rock crushes Scissors"
               
                                        
 #Rock
+~~~
     _______
 ---'   ____)
       (_____)
@@ -57,8 +53,12 @@ Rock crushes Scissors"
       (____)
 ---.__(___)
 
+~~~
+
 
 #Paper
+
+~~~
     _______
 ---'   ____)____
           ______)
@@ -66,8 +66,10 @@ Rock crushes Scissors"
          _______)
 ---.__________)
 
-
+~~~
 #Scissor
+
+~~~
     _______
 ---'   ____)____
           ______)
@@ -75,8 +77,11 @@ Rock crushes Scissors"
       (____)
 ---.__(___)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-                                                               
+~~~
+                                                         
 #Lizard
+
+~~~
   
    _| |
  _| | |
@@ -90,8 +95,11 @@ Rock crushes Scissors"
  \        /
   |     /
 
+~~~
 
-#Spock                                                                                        
+#Spock   
+
+~~~
           - + -                
           +   +     + +        
        +  .   -     -  + -        
@@ -107,5 +115,4 @@ Rock crushes Scissors"
     .-                    +        
      -.                  .         
  
-
-
+~~~
