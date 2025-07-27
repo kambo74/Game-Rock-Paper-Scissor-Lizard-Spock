@@ -4,8 +4,6 @@ import random
 
 all_symbols = [art.rock, art.paper, art.scissor, art.lizard, art.spock]
 
-comp_choice = random.randint(1,5)
-
 # rock(1) > scissor and lizard
 # paper(2) > spock and rock
 # scissor(3) > lizard and paper
@@ -18,6 +16,7 @@ scissor = 3
 lizard = 4
 spock = 5
 while True:
+      comp_choice = random.randint(1, 5)
       player_choice = int(input("choose your symbol: \n"
                                 "1. rock \n"
                                 "2. paper \n"
